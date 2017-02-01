@@ -23,7 +23,7 @@ public class CustomerDetailsMicroserviceApplication implements CommandLineRunner
 	@Override
 	@Transactional
 	public void run(String... arg0) throws Exception {
-		repo.save(new Customer("Santosh", "santosh@gmail.com"));
+		repo.save(new Customer("Santosh Kumar", "santosh@gmail.com"));
 		repo.save(new Customer("Manas", "manas@gmail.com"));
 		repo.save(new Customer("Rupali", "rupali@gmail.com"));
 		repo.save(new Customer("Som", "som@gmail.com"));
